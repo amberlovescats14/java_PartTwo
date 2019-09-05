@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c019e78f-d27c-4b75-a973-d8afaa9d94bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/amber/Browser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/amber/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amber/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/amber/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amber/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

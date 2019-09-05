@@ -11,11 +11,22 @@ public class Employee {
         setBaseSalary((baseSalary));
         setHourlyRate(hourlyRate);
     }
+//    //constructor OVERLOAD  *you just make a duplicate of the same but with one less param
+//    public  Employee(int baseSalary) throws IllegalAccessException {
+//        this(baseSalary, 0);
+//    }
 
     // because these variables are in our class we don't have to pass them
     public int calculateWage(int extraHours) {
         return baseSalary + (hourlyRate * extraHours);
     }
+
+    /*
+ OVERLOADING FUNCTIONS ---- only a tiny improvment
+    public int calculateWage() {
+        return calculateWage(0);
+    }
+*/
 
     //SETTER -- PRIVATE, only used in constructor
     private void setBaseSalary(int baseSalary) throws IllegalAccessException {
@@ -30,7 +41,7 @@ public class Employee {
 
     //SETTER -- PRIVATE BEcause we are using it in constructor
     private void setHourlyRate(int hourlyRate) throws IllegalAccessException {
-        if(hourlyRate <=0 ) throw new IllegalAccessException("Hourly rate must be greater than 0");
+        if(hourlyRate < 0 ) throw new IllegalAccessException("Hourly rate must be greater than 0");
         this.hourlyRate = hourlyRate;
     }
 
