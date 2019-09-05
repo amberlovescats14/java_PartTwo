@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c019e78f-d27c-4b75-a973-d8afaa9d94bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/amber/Browser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP_java/com/amber/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP_java/com/amber/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP_java/com/amber/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP_java/com/amber/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/amber/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amber/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/amber/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amber/Main.java" afterDir="false" />
     </list>
