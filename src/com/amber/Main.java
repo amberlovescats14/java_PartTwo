@@ -34,6 +34,23 @@ public class Main {
         var employee = new Employee(60_000, 30);
         int wage = employee.calculateWage(20);
         System.out.println(wage);
+//---------------------------
+        //STATIC to the Employee class
+        Employee.printNumberOfEmployees();
 
     }
 }
+// Class is a blueprint / an Object in an instance of a class;
+// INSTANTIATING = creating a new instance;
+// STACK stores variables / HEAP gets emptied by JAVA when not needed
+//The problem with PROCEDURAL code is it creates COUPLING, which is the dependency of one class to another;
+   //procedural coding requires passing variables around. it is repetitive
+// ENCAPSULATION is using GETTERS and SETTERS
+// We declare fields as PRIVATE so that we dont access them from the main:: No bad state
+// ABSTRACTION hides unnecessary detail from the public:: reduces complexity
+// COUPLING is the dependency of one class on another
+// abstraction helps because if we change one class, we will not have to change all the other oens
+// constructors takes all the parameters in upon the initial instance, less guessing involved
+// method overloading is calling a method inside itself, incase 0 or nothing is passed. Instead of using if statments
+//static methods are methods and variables that need to be independent of each instance.
+   // they belong to the class itself

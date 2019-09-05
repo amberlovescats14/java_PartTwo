@@ -6,10 +6,18 @@ public class Employee {
     private int baseSalary;
     private int hourlyRate;
 
+    //STATIC  -- when the value is independant of each employee
+    public static  int numberOfEmployees;
+
+    public static void printNumberOfEmployees() {
+        System.out.println(numberOfEmployees);
+    }
+
     //constructor
     public  Employee(int baseSalary, int hourlyRate) throws IllegalAccessException {
         setBaseSalary((baseSalary));
         setHourlyRate(hourlyRate);
+        numberOfEmployees++;
     }
 //    //constructor OVERLOAD  *you just make a duplicate of the same but with one less param
 //    public  Employee(int baseSalary) throws IllegalAccessException {
